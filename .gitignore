@@ -3,3 +3,4 @@ Makefile
 *.o
 moc_*
 opacity-slider
+ghosty

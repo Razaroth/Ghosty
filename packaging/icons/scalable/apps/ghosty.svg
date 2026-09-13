@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" width="64" height="64">
+<g opacity="37">
+  <path d="M 0.23 0.69 L 0.23 0.37 C 0.23 0.21 0.49 0.21 0.49 0.37 L 0.49 0.69 Q 0.46 0.78 0.40 0.69 Q 0.36 0.78 0.32 0.69 Q 0.29 0.78 0.23 0.69 Z" fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
+  <g fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
+  <circle cx="0.18" cy="0.56" r="0.05"/>
+  <circle cx="0.54" cy="0.56" r="0.05"/>
+  </g>
+  <g fill="#F0A8B4">
+  <ellipse cx="0.28" cy="0.51" rx="0.04" ry="0.02"/>
+  <ellipse cx="0.44" cy="0.51" rx="0.04" ry="0.02"/>
+  </g>
+  <g fill="#343A4A">
+  <ellipse cx="0.32" cy="0.41" rx="0.03" ry="0.04"/>
+  <ellipse cx="0.40" cy="0.41" rx="0.03" ry="0.04"/>
+  <ellipse cx="0.36" cy="0.56" rx="0.02" ry="0.03"/>
+  </g>
+</g>
+<g opacity="100">
+  <path d="M 0.44 0.58 L 0.44 0.25 C 0.44 0.08 0.74 0.08 0.74 0.25 L 0.74 0.58 Q 0.70 0.67 0.63 0.58 Q 0.59 0.67 0.55 0.58 Q 0.51 0.67 0.44 0.58 Z" fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
+  <g fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
+  <circle cx="0.39" cy="0.44" r="0.06"/>
+  <circle cx="0.79" cy="0.44" r="0.06"/>
+  </g>
+  <g fill="#F0A8B4">
+  <ellipse cx="0.50" cy="0.39" rx="0.04" ry="0.02"/>
+  <ellipse cx="0.68" cy="0.39" rx="0.04" ry="0.02"/>
+  </g>
+  <g fill="#343A4A">
+  <ellipse cx="0.54" cy="0.29" rx="0.03" ry="0.04"/>
+  <ellipse cx="0.64" cy="0.29" rx="0.03" ry="0.04"/>
+  <ellipse cx="0.59" cy="0.44" rx="0.02" ry="0.03"/>
+  </g>
+</g>
+</svg>

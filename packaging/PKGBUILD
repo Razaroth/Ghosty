@@ -1,0 +1,33 @@
+# Maintainer: Razaroth <jlester319@gmail.com>
+
+pkgname=ghosty
+pkgver=1.0.0
+pkgrel=1
+pkgdesc="Per-window transparency for KDE Plasma - a cute ghost in your system tray"
+arch=('x86_64')
+url="https://github.com/Razaroth/Ghosty"
+license=('MIT')
+depends=('qt6-base')
+makedepends=('qt6-base')
+source=("git+https://github.com/Razaroth/Ghosty.git")
+sha256sums=('SKIP')
+
+pkgver() {
+    cd "$srcdir/Ghosty"
+    git describe --tags --always --dirty 2>/dev/null || echo "$pkgver"
+}
+
+prepare() {
+    cd "$srcdir/Ghosty"
+    qmake6 PREFIX=/usr opacity-slider.pro
+}
+
+build() {
+    cd "$srcdir/Ghosty"
+    make
+}
+
+package() {
+    cd "$srcdir/Ghosty"
+    make INSTALL_ROOT="$pkgdir" install
+}

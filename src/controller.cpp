@@ -40,7 +40,12 @@ bool Controller::registerService()
 
 QString Controller::assetsDir() const
 {
-    return QCoreApplication::applicationDirPath() + QStringLiteral("/assets");
+    const QString local = QCoreApplication::applicationDirPath() + QStringLiteral("/assets");
+    if (QFileInfo::exists(local)) {
+        // Bundled assets (running from a source checkout or archive).
+        return local;
+    }
+    return QStringLiteral(GHOSTY_DATA_DIR);
 }
 
 QString Controller::installedEffectDir() const

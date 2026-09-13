@@ -11,7 +11,7 @@ build() {
 
 install_autostart() {
     local bin
-    bin="$(pwd)/opacity-slider"
+    bin="$(pwd)/ghosty"
     mkdir -p "$HOME/.config/autostart"
     cat > "$HOME/.config/autostart/opacity-slider.desktop" <<EOF
 [Desktop Entry]
@@ -30,10 +30,10 @@ case "${1:-}" in
     --install)
         build
         install_autostart
-        exec ./opacity-slider
+        exec ./ghosty
         ;;
     *)
         build
-        exec ./opacity-slider "$@"
+        exec ./ghosty "$@"
         ;;
 esac

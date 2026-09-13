@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Ghosty
+Comment=Per-window transparency for KDE Plasma
+Exec=ghosty
+Icon=ghosty
+Terminal=false
+X-KDE-autostart-after=panel
