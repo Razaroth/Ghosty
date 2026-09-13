@@ -1,0 +1,11 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "KPlugin": {
+        "Id": "opacity-windows",
+        "Name": "Opacity Windows",
+        "Description": "Reports open windows to the Opacity Slider tray app",
+        "License": "MIT",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "javascript"
+}

@@ -1,0 +1,14 @@
+{
+    "KPackageStructure": "KWin/Effect",
+    "KPlugin": {
+        "Id": "opacity-slider",
+        "Name": "Opacity Slider",
+        "Description": "Per-window opacity driven by the Opacity Slider tray app",
+        "Category": "Appearance",
+        "EnabledByDefault": false,
+        "License": "MIT",
+        "Version": "1.0"
+    },
+    "X-Plasma-API": "javascript",
+    "X-KDE-Ordering": 60
+}
