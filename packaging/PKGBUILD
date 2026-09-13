@@ -9,25 +9,17 @@ url="https://github.com/Razaroth/Ghosty"
 license=('MIT')
 depends=('qt6-base')
 makedepends=('qt6-base')
-source=("git+https://github.com/Razaroth/Ghosty.git")
-sha256sums=('SKIP')
-
-pkgver() {
-    cd "$srcdir/Ghosty"
-    git describe --tags --always --dirty 2>/dev/null || echo "$pkgver"
-}
-
-prepare() {
-    cd "$srcdir/Ghosty"
-    qmake6 PREFIX=/usr opacity-slider.pro
-}
+source=("$pkgname-$pkgver.tar.gz::https://github.com/Razaroth/Ghosty/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('8211cdb34be6d877ba4120bbf1cb0f2f4b7b8a00c1be0d5eaaff1b5ecc07bae2')
 
 build() {
-    cd "$srcdir/Ghosty"
+    cd "$srcdir/Ghosty-$pkgver"
+    qmake6 PREFIX=/usr opacity-slider.pro
     make
 }
 
 package() {
-    cd "$srcdir/Ghosty"
+    cd "$srcdir/Ghosty-$pkgver"
     make INSTALL_ROOT="$pkgdir" install
+    install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
