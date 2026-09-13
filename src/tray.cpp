@@ -98,7 +98,7 @@ Tray::Tray(Controller *controller, QObject *parent)
     buildContextMenu();
 
     m_tray = new QSystemTrayIcon(makeAppIcon(), this);
-    m_tray->setToolTip(QStringLiteral("Opacity Slider"));
+    m_tray->setToolTip(QStringLiteral("Ghosty"));
     m_tray->setContextMenu(m_menu);
     connect(m_tray, &QSystemTrayIcon::activated, this, [this](QSystemTrayIcon::ActivationReason reason) {
         if (reason == QSystemTrayIcon::Trigger || reason == QSystemTrayIcon::DoubleClick) {
@@ -123,7 +123,7 @@ void Tray::buildUi()
 
     // ---- Title row ----
     auto *titleRow = new QHBoxLayout;
-    auto *title = new QLabel(QStringLiteral("Opacity Slider"));
+    auto *title = new QLabel(QStringLiteral("Ghosty"));
     QFont f = title->font();
     f.setBold(true);
     f.setPointSize(f.pointSize() + 1);

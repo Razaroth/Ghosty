@@ -3,7 +3,7 @@
     "KPlugin": {
         "Id": "opacity-windows",
         "Name": "Opacity Windows",
-        "Description": "Reports open windows to the Opacity Slider tray app",
+        "Description": "Reports open windows to the Ghosty tray app",
         "License": "MIT",
         "Version": "1.0"
     },

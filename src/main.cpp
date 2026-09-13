@@ -8,22 +8,22 @@
 int main(int argc, char **argv)
 {
     QApplication app(argc, argv);
-    app.setApplicationName(QStringLiteral("Opacity Slider"));
-    app.setApplicationDisplayName(QStringLiteral("Opacity Slider"));
+    app.setApplicationName(QStringLiteral("Ghosty"));
+    app.setApplicationDisplayName(QStringLiteral("Ghosty"));
     app.setQuitOnLastWindowClosed(false);
     app.setWindowIcon(makeAppIcon());
 
     Controller controller;
     if (!controller.registerService()) {
         QMessageBox::information(
-            nullptr, QStringLiteral("Opacity Slider"),
-            QStringLiteral("Opacity Slider is already running in the system tray."));
+            nullptr, QStringLiteral("Ghosty"),
+            QStringLiteral("Ghosty is already running in the system tray."));
         return 0;
     }
 
     if (!controller.ensureInstalled()) {
         QMessageBox::warning(
-            nullptr, QStringLiteral("Opacity Slider"),
+            nullptr, QStringLiteral("Ghosty"),
             QStringLiteral("Could not install the KWin effect assets.\n"
                            "Make sure the 'assets' folder is next to the executable."));
         return 1;

@@ -1,6 +1,6 @@
 /* Opacity Windows — KWin script (watcher).
  *
- * Pushes the current list of normal-window captions to the Opacity Slider
+ * Pushes the current list of normal-window captions to the Ghosty
  * tray app over D-Bus whenever the window list changes, so the app can offer
  * per-window transparency overrides.
  *

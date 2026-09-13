@@ -16,8 +16,8 @@ install_autostart() {
     cat > "$HOME/.config/autostart/opacity-slider.desktop" <<EOF
 [Desktop Entry]
 Type=Application
-Name=Opacity Slider
-Comment=Per-window transparency slider for KDE
+Name=Ghosty
+Comment=Per-window transparency for KDE
 Exec=$bin
 Icon=transparency
 Terminal=false

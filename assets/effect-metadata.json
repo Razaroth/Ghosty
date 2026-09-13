@@ -2,8 +2,8 @@
     "KPackageStructure": "KWin/Effect",
     "KPlugin": {
         "Id": "opacity-slider",
-        "Name": "Opacity Slider",
-        "Description": "Per-window opacity driven by the Opacity Slider tray app",
+        "Name": "Ghosty",
+        "Description": "Per-window opacity driven by the Ghosty tray app",
         "Category": "Appearance",
         "EnabledByDefault": false,
         "License": "MIT",
