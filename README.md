@@ -1,5 +1,7 @@
 # Ghosty
 
+<img src="logo.png" alt="Ghosty" width="160">
+
 A cute ghost in your system tray that gives KDE Plasma per-window transparency.
 
 ## Install
