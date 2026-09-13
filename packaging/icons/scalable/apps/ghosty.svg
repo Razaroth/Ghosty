@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1 1" width="64" height="64">
 <g opacity="37">
-  <path d="M 0.23 0.69 L 0.23 0.37 C 0.23 0.21 0.49 0.21 0.49 0.37 L 0.49 0.69 Q 0.46 0.78 0.40 0.69 Q 0.36 0.78 0.32 0.69 Q 0.29 0.78 0.23 0.69 Z" fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
-  <g fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
-  <circle cx="0.18" cy="0.56" r="0.05"/>
-  <circle cx="0.54" cy="0.56" r="0.05"/>
+  <path d="M 0.2280 0.6920 L 0.2280 0.3720 C 0.2280 0.2120 0.4920 0.2120 0.4920 0.3720 L 0.4920 0.6920 Q 0.4560 0.7816 0.3960 0.6920 Q 0.3600 0.7816 0.3240 0.6920 Q 0.2880 0.7816 0.2280 0.6920 Z" fill="#ECF1F9" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
+  <g fill="#ECF1F9" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
+  <ellipse cx="0.1770" cy="0.5576" rx="0.0510" ry="0.1088"/>
+  <ellipse cx="0.5430" cy="0.5576" rx="0.0510" ry="0.1088"/>
   </g>
   <g fill="#F0A8B4">
-  <ellipse cx="0.28" cy="0.51" rx="0.04" ry="0.02"/>
-  <ellipse cx="0.44" cy="0.51" rx="0.04" ry="0.02"/>
+  <ellipse cx="0.2760" cy="0.5096" rx="0.0360" ry="0.0224"/>
+  <ellipse cx="0.4440" cy="0.5096" rx="0.0360" ry="0.0224"/>
   </g>
   <g fill="#343A4A">
-  <ellipse cx="0.32" cy="0.41" rx="0.03" ry="0.04"/>
-  <ellipse cx="0.40" cy="0.41" rx="0.03" ry="0.04"/>
-  <ellipse cx="0.36" cy="0.56" rx="0.02" ry="0.03"/>
+  <ellipse cx="0.3150" cy="0.4136" rx="0.0270" ry="0.0416"/>
+  <ellipse cx="0.4050" cy="0.4136" rx="0.0270" ry="0.0416"/>
+  <ellipse cx="0.3600" cy="0.5576" rx="0.0210" ry="0.0256"/>
   </g>
 </g>
 <g opacity="100">
-  <path d="M 0.44 0.58 L 0.44 0.25 C 0.44 0.08 0.74 0.08 0.74 0.25 L 0.74 0.58 Q 0.70 0.67 0.63 0.58 Q 0.59 0.67 0.55 0.58 Q 0.51 0.67 0.44 0.58 Z" fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
-  <g fill="#EBEFF8" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
-  <circle cx="0.39" cy="0.44" r="0.06"/>
-  <circle cx="0.79" cy="0.44" r="0.06"/>
+  <path d="M 0.4448 0.5780 L 0.4448 0.2480 C 0.4448 0.0830 0.7352 0.0830 0.7352 0.2480 L 0.7352 0.5780 Q 0.6956 0.6704 0.6296 0.5780 Q 0.5900 0.6704 0.5504 0.5780 Q 0.5108 0.6704 0.4448 0.5780 Z" fill="#ECF1F9" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round"/>
+  <g fill="#ECF1F9" stroke="#96A0B4" stroke-width="0.045" stroke-linejoin="round">
+  <ellipse cx="0.3887" cy="0.4394" rx="0.0561" ry="0.1122"/>
+  <ellipse cx="0.7913" cy="0.4394" rx="0.0561" ry="0.1122"/>
   </g>
   <g fill="#F0A8B4">
-  <ellipse cx="0.50" cy="0.39" rx="0.04" ry="0.02"/>
-  <ellipse cx="0.68" cy="0.39" rx="0.04" ry="0.02"/>
+  <ellipse cx="0.4976" cy="0.3899" rx="0.0396" ry="0.0231"/>
+  <ellipse cx="0.6824" cy="0.3899" rx="0.0396" ry="0.0231"/>
   </g>
   <g fill="#343A4A">
-  <ellipse cx="0.54" cy="0.29" rx="0.03" ry="0.04"/>
-  <ellipse cx="0.64" cy="0.29" rx="0.03" ry="0.04"/>
-  <ellipse cx="0.59" cy="0.44" rx="0.02" ry="0.03"/>
+  <ellipse cx="0.5405" cy="0.2909" rx="0.0297" ry="0.0429"/>
+  <ellipse cx="0.6395" cy="0.2909" rx="0.0297" ry="0.0429"/>
+  <ellipse cx="0.5900" cy="0.4394" rx="0.0231" ry="0.0264"/>
   </g>
 </g>
 </svg>

@@ -1,7 +1,7 @@
 pkgbase = ghosty
 	pkgdesc = Per-window transparency for KDE Plasma - a cute ghost in your system tray
 	pkgver = 1.0.0
-	pkgrel = 1
+	pkgrel = 2
 	url = https://github.com/Razaroth/Ghosty
 	arch = x86_64
 	license = MIT

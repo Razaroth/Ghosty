@@ -6,12 +6,11 @@ A cute ghost in your system tray that gives KDE Plasma per-window transparency.
 
 ## Install
 
-Arch packages are available from the repo (built in CI: nothing yanked yet, but
-this is the build from the `v1.0.0` tag):
+Arch packages are available from the repo, built from the `v1.0.1` tag:
 
 ```
 curl -L -o ghosty.pkg.tar.zst \
-  https://github.com/Razaroth/Ghosty/raw/main/release/ghosty-1.0.0-1-x86_64.pkg.tar.zst
+  https://github.com/Razaroth/Ghosty/raw/main/release/ghosty-1.0.1-1-x86_64.pkg.tar.zst
 sudo pacman -U ghosty.pkg.tar.zst
 ```
 

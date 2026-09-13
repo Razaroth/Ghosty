@@ -1,7 +1,7 @@
 # Maintainer: Razaroth <jlester319@gmail.com>
 
 pkgname=ghosty
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Per-window transparency for KDE Plasma - a cute ghost in your system tray"
 arch=('x86_64')
